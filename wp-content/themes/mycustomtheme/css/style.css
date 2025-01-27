@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.simple {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    
+}
+/* Header */
+header.site-header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .site-title a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .site-menu .menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header .site-menu .menu li {
+    margin: 0 50;
+}
+
+header .site-menu .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header .site-menu .menu a:hover {
+    color: #f39c12;
+}
+
+/* Footer */
+footer.site-footer {
+    background: #222;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+footer .footer-menu .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.5rem 0 0;
+    padding: 0;
+}
+
+footer .footer-menu .menu li {
+    margin: 0;
+}
+
+footer .footer-menu .menu a {
+    text-decoration: none;
+    color: #bbb;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+footer .footer-menu .menu a:hover {
+    color: #f39c12;
+}
