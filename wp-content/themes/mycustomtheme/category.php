@@ -1,9 +1,5 @@
 <?php get_header(); ?>
 
-<div>
-    <?php dynamic_sidebar('sidebar01') ?>
-</div>
-
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
         <article>

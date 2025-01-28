@@ -59,6 +59,19 @@ header .site-menu .menu a:hover {
     color: #f39c12;
 }
 
+.current_page_item a {
+    color: black !important;
+    background-color: whitesmoke;
+    padding: 8px; /* Removed second value to make it uniform */
+    border-radius: 50%; /* This makes it circular */
+    width: 32px; /* Set explicit width */
+    height: 32px; /* Set explicit height */
+    display: inline-flex; /* Ensures content is centered */
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    text-align: center;
+}
+
 /* Footer */
 footer.site-footer {
     background: #222;

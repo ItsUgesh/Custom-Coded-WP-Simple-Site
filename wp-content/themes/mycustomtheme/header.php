@@ -1,13 +1,13 @@
 <?php wp_head(); ?>
 
 <head>
-    <title>Ugesh Tzfe</title>
+    <title><?php bloginfo('name'); ?> <?php wp_title(); ?> <?php if(is_front_page()){echo "| "; bloginfo('description');}  ?> </title>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 </head>
 <header class="site-header">
     <div class="container">
         <h1 class="site-title">
-            <a href="/">My Portfolio</a>
+            <a href="<?php the_permalink(10) ?>">My Portfolio</a>
         </h1>
         <nav class="site-menu">
             <ul class="menu">

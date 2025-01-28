@@ -88,6 +88,8 @@ if ( ! function_exists( 'twentytwentyfive_block_styles' ) ) :
 endif;
 add_action( 'init', 'twentytwentyfive_block_styles' );
 
+
+
 // Registers pattern categories.
 if ( ! function_exists( 'twentytwentyfive_pattern_categories' ) ) :
 	/**
